@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Particle
-  m_Shader: {fileID: -6465566751694194690, guid: 7f3be60ffe027fb4aa26f02da5199f67,
+  m_Name: Fx_Particle_apb
+  m_Shader: {fileID: -6465566751694194690, guid: bd307bf25d901cb4db49b576d529953c,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,13 +42,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Disslove: -1
-    - _Emissive: 30.3
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &845310664939787264
+--- !u!114 &6491692073850063453
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
