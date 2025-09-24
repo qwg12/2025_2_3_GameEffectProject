@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fx_Particle_apb
-  m_Shader: {fileID: -6465566751694194690, guid: bd307bf25d901cb4db49b576d529953c,
+  m_Shader: {fileID: -6465566751694194690, guid: baf593f0705e79940a6788623f1498fd,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,8 +24,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 05439787e3e08754b8cd7add9ae5778a, type: 3}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: fe0ecf214da2da74398a2a7f554fd373, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,7 +46,7 @@ Material:
     - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &6491692073850063453
+--- !u!114 &6730946836029028498
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
