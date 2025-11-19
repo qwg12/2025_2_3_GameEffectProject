@@ -10,7 +10,7 @@ public class EnemyDetector : MonoBehaviour
     public GameObject GetClosestEnemy()
     {
         Collider[] enemiesInRange = Physics.OverlapSphere(transform.position, detectionRadius, enemyLayer);
-        if(enemiesInRange.Length > 0)
+        if (enemiesInRange.Length > 0)
         {
             GameObject bestTarget = null;
             float closestDistanceSqr = Mathf.Infinity;
@@ -18,13 +18,13 @@ public class EnemyDetector : MonoBehaviour
 
             foreach (Collider enemyCollider in enemiesInRange)
             {
-                if(enemyCollider.gameObject == this)
-                   continue;
+                if (enemyCollider.gameObject == this.gameObject)
+                    continue;
 
                 Vector3 directionToTarget = enemyCollider.transform.position - currentPosition;
                 float dSqrToTarget = directionToTarget.sqrMagnitude;
 
-                if(dSqrToTarget < closestDistanceSqr)
+                if (dSqrToTarget < closestDistanceSqr)
                 {
                     closestDistanceSqr = dSqrToTarget;
                     bestTarget = enemyCollider.gameObject;
@@ -53,4 +53,6 @@ public class EnemyDetector : MonoBehaviour
         }
         return enemiesList;
     }
+
+
 }

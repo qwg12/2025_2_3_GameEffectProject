@@ -8,9 +8,9 @@ public class LineRendererController : MonoBehaviour
 
     public void SetPosition(Transform startPos, Transform endPos)
     {
-        if(lineRenderers.Count > 0)
+        if (lineRenderers.Count > 0)
         {
-            for(int i = 0; i < lineRenderers.Count; i++)
+            for (int i = 0; i < lineRenderers.Count; i++)
             {
                 if (lineRenderers[i].positionCount >= 2)
                 {
